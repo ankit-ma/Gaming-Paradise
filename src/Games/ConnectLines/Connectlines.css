@@ -1,0 +1,103 @@
+#game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#root {
+  background-color: rgb(144, 201, 239);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgb(3, 3, 3);
+  border-radius: 2px;
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+}
+
+.horizContainer {
+  height: 6px;
+  width: 40px;
+  border: 2px;
+}
+
+.vertContainer {
+  height: 40px;
+  width: 6px;
+  border: 2px;
+}
+
+#board {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  margin: 20px;
+  border: 20px;
+  background-color: rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5));
+  border-radius: 20px;
+}
+
+#header {
+  padding: 10px 50px;
+  margin: 10px;
+}
+#score {
+  align-items: center;
+  text-align: center;
+  color: rgb(247, 244, 244);
+  left: 10%;
+  font-size: 20px;
+  margin: 10px;
+  top: 40%;
+  padding: 10px 20px;
+  background-color: rgba(231, 140, 220, 0.887);
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5));
+}
+#small {
+  background-color: rgb(73, 220, 20);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5));
+}
+#medium {
+  background-color: rgb(220, 180, 20);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5));
+}
+#large {
+  background-color: crimson;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5));
+}

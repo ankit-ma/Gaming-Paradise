@@ -1,0 +1,27 @@
+.tictactoe img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tictactoe .parent {
+  height: 100vh;
+  width: 100vw;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.tictactoe .gameName {
+  position: absolute;
+  font-size: 60px;
+  font-family: "Fredericka the Great", cursive;
+  text-decoration: underline;
+  color: rgb(235, 239, 244);
+  top: 5%;
+  left: 35%;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5)); */
+}

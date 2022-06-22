@@ -1,0 +1,70 @@
+.Sudoku {
+  text-align: center;
+}
+.SudokuHeader {
+  background-color: black;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px +2vmin);
+  color: white;
+}
+.cellinput {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  border: 3px solid rgb(130, 130, 232);
+  background-color: bisque;
+}
+
+td {
+  padding: 0;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.solveButton {
+  background-color: rgb(239, 127, 16);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+}
+.checkButton {
+  background-color: green;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+}
+
+.resetButton {
+  background-color: crimson;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+}
+.bBorder {
+  border-bottom: 2px solid black;
+}
+.rBorder {
+  border-right: 2px solid black;
+}
