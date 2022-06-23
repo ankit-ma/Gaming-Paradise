@@ -314,30 +314,32 @@ class Connectlines extends Component {
 
   render() {
     return (
-      <div id="game">
-        <div id="header">
-          <h1 id="welcome">Connect Lines </h1>
-          <p id="score">
-            {" "}
-            Red:{this.state.numRed} <br />
-            Blue:{this.state.numBlue}{" "}
-          </p>
-          Board size :
-          <button id="small" onClick={this.changeBoardSize}>
-            {" "}
-            5x5{" "}
-          </button>
-          <button id="medium" onClick={this.changeBoardSize}>
-            {" "}
-            8x8{" "}
-          </button>
-          <button id="large" onClick={this.changeBoardSize}>
-            {" "}
-            11x11{" "}
-          </button>
-          <p id="winner"> {this.state.winMessage} </p>
+      <div id="parentline">
+        <div id="game">
+          <div id="header">
+            <h1 id="welcome">Connect Lines </h1>
+            <p id="score">
+              {" "}
+              Red:{this.state.numRed} <br />
+              Blue:{this.state.numBlue}{" "}
+            </p>
+            Board size :
+            <button id="small" onClick={this.changeBoardSize}>
+              {" "}
+              5x5{" "}
+            </button>
+            <button id="medium" onClick={this.changeBoardSize}>
+              {" "}
+              8x8{" "}
+            </button>
+            <button id="large" onClick={this.changeBoardSize}>
+              {" "}
+              11x11{" "}
+            </button>
+            <p id="winner"> {this.state.winMessage} </p>
+          </div>
+          <div id="board">{this.makeBoard(this.state.boardSize)}</div>
         </div>
-        <div id="board">{this.makeBoard(this.state.boardSize)}</div>
       </div>
     );
   }
