@@ -1,4 +1,4 @@
-.tictactoe img {
+/* .tictactoe img {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,5 +23,128 @@
   left: 35%;
   z-index: 2;
   /* -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
+  filter: drop-shadow(2px 2px 2px rgb(5, 5, 5)); 
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, rgb(227, 59, 59), rgb(211, 42, 194));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.tictactoe .gameName {
+  position: absolute;
+  font-size: 60px;
+  font-family: "Fredericka the Great", cursive;
+  text-decoration: underline;
+  color: rgb(235, 239, 244);
+  top: 5%;
+  left: 35%;
+  z-index: 2;
+  /* -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
   filter: drop-shadow(2px 2px 2px rgb(5, 5, 5)); */
+}
+
+.tictactoe img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tictactoe .parent {
+  height: 100vh;
+  width: 100vw;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  width: 500px;
+}
+.container p {
+  color: white;
+  margin: 50px;
+  padding: 0px;
+  top: 97%;
+  left: 16%;
+  font-size: 30px;
+}
+table {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 30%;
+  left: 36%;
+  background-color: rgba(0, 255, 255, 0);
+  border: none;
+}
+table td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 4rem;
+  vertical-align: super;
+  font-weight: 700;
+  color: white;
+}
+#firstrow {
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+#secondrow {
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+/* #thirdrow {
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: aliceblue;
+} */
+#cells {
+  border-width: 0px 5px 0px 0px;
+  border-style: solid;
+  border-color: aliceblue;
+}
+
+.winning-message {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 5rem;
+}
+
+.winning-message button {
+  font-size: 3rem;
+  border: 1px solid black;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+}
+
+.winning-message button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
 }
