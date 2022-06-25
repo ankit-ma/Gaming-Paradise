@@ -82,16 +82,17 @@ body {
   left: 16%;
   font-size: 30px;
 }
-table {
+.table {
   position: absolute;
   margin: 0px;
   padding: 0px;
   top: 30%;
   left: 36%;
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(10, 10, 10, 0);
   border: none;
+  /* color: black; */
 }
-table td {
+.table td {
   width: 100px;
   height: 100px;
   text-align: center;

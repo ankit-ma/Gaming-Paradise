@@ -35,6 +35,15 @@
   font-family: "Parisienne", cursive;
   font-size: 50px;
   color: rgb(253, 253, 250);
+  margin: 10;
   -webkit-filter: drop-shadow(5px 5px 3px rgb(6, 6, 6));
   filter: drop-shadow(10px 10px 10px rgb(5, 5, 5));
+}
+#tilediv {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

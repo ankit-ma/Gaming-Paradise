@@ -5,7 +5,7 @@ function GamepageTile(props) {
   const topsize = props.topsize + "px";
   const leftsize = props.leftsize + "px";
   return (
-    <div>
+    <div id="tilediv">
       <img
         className="tile"
         style={{ top: topsize, left: leftsize }}

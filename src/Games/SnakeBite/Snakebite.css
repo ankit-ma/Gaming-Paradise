@@ -5,8 +5,8 @@
   width: 600px;
   height: 600px;
   border: 2px solid #000;
-  background-image: url("./Resource/snake.jpg");
-  /* background-color: green; */
+  /* background-image: url("./Resource/snake.jpg"); */
+  background-color: green;
   opacity: 0.6;
   z-index: 3;
   top: 0%;

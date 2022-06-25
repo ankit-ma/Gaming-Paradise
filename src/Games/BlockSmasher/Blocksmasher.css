@@ -25,6 +25,8 @@ body {
   border: 1px solid grey;
   border-radius: 20px;
   background-color: rgba(235, 181, 236, 0.821);
+  -webkit-filter: drop-shadow(10px 5px 5px rgb(6, 6, 6));
+  filter: drop-shadow(4px 4px 4px rgb(62, 1, 1));
 }
 
 .t-cell {
@@ -40,7 +42,7 @@ body {
 }
 
 .t-cell-1 {
-  background-color: #00d;
+  background-color: rgb(206, 0, 221);
   border-bottom: 1px solid #00f;
   border-right: 1px solid #00f;
   border-top: 1px solid #00b;

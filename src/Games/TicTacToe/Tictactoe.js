@@ -102,7 +102,7 @@ const Tictactoe = () => {
       <img className="parent" src={bg} alt="background"></img>
       <h2 className="gameName">Tic Tac Toe</h2>
       <div className="container">
-        <table>
+        <table className="table">
           <p>Turn : {turn}</p>
           <br></br>
           <tbody>
